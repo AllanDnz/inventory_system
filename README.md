@@ -44,7 +44,7 @@ npm install
 4. Database configuration
 Make sure PostgreSQL is running and configure the database as required. In the .env file in the backend directory, set the following environment variables:
 
-``` 
+```yaml 
 DB_HOST=localhost
 DB_USER= your_user
 DB_PASSWORD=your_password
@@ -53,7 +53,7 @@ DB_PORT=5432 << this is default port for postgres
 ```
 Run the scripts to create the tables in the database:
 
-```yaml
+```
 CREATE TABLE products (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100),
