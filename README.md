@@ -53,7 +53,7 @@ DB_PORT=5432 << this is default port for postgres
 ```
 Run the scripts to create the tables in the database:
 
-```
+```yaml
 CREATE TABLE products (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100),
