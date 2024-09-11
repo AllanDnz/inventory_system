@@ -1,0 +1,15 @@
+.product-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-list button {
+    background-color: #dc3545;
+    
+  }
+  
+  .product-form input {
+    margin-right: 10px;
+  }
+  

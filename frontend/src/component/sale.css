@@ -1,0 +1,15 @@
+.sale-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sale-list button {
+    background-color: #dc3545;
+    
+  }
+  
+  .sale-form input {
+    margin-right: 10px;
+  }
+  

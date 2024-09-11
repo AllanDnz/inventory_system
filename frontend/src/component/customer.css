@@ -1,0 +1,15 @@
+.customer-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .customer-list button {
+    background-color: #dc3545;
+    
+  }
+  
+  .customer-form input {
+    margin-right: 10px;
+  }
+  
