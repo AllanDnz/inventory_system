@@ -1,4 +1,4 @@
-# Invetory System
+# Inventory System
 
 [![My Skills](https://skillicons.dev/icons?i=nodejs,react,postgres,git)](https://skillicons.dev)
 
