@@ -12,11 +12,11 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use('/api/products', productRoutes);
 app.use('/api/customers', customerRoutes);
-app.use('/api/sales', saleRoutes);
+app.use('/api/sales', saleRoutes); 
 app.use('/api/reports', reportRoutes);
 
 const PORT = 5000;
-app.listen(PORT, () => {
+app.listen(PORT, () => { 
   console.log(`api here >> http://localhost:${PORT}`);
 });
 

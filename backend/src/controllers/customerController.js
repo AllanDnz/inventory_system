@@ -3,10 +3,10 @@ const Customer = require('../models/customers');
 const customerController = {
   async create(req, res) {
     const { name, email, phone, address } = req.body;
-    const customer = await Customer.create(name, email, phone, address);
+    const customer = await Customer.create(name, email, phone, address); 
     res.json(customer);
   },
-
+ 
   async getAll(req, res) {
     const customers = await Customer.getAll();
     res.json(customers);
